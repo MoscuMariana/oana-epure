@@ -1,6 +1,8 @@
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+}
 
-@media (max-width: 1120px) {}
+@media (max-width: 1120px) {
+}
 
 @media (max-width: 992px) {
   .hero_area {
@@ -11,7 +13,6 @@
     padding-top: 15px;
     align-items: center;
   }
-
 
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 5px 25px;
@@ -29,14 +30,12 @@
   .client_section .carousel-control-next {
     right: 15%;
   }
-
 }
 
 @media (max-width: 767px) {
-
   .slider_bg_box img {
-    -o-object-position: top center;
-    object-position: top center;
+    object-fit: none;
+    object-position: 5px 130%;
   }
 
   .arrival_section .arrival_bg_box img {
@@ -95,7 +94,8 @@
   }
 }
 
-@media (max-width: 420px) {}
+@media (max-width: 420px) {
+}
 
 @media (max-width: 376px) {
   .slider_section .detail-box h1 {
