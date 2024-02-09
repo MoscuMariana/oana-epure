@@ -1010,6 +1010,14 @@ form input[type="submit"]:focus {
   font-weight: bold;
 }
 
+.text-box2 h4 {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .text-box h2::after {
   content: "";
   display: block;
@@ -1042,7 +1050,7 @@ form input[type="submit"]:focus {
   max-width: 620px;
   margin: 80px auto;
   align-self: center;
-  margin-top: -280px;
+  margin-top: -250px;
 }
 
 /* Blockquote header */
@@ -1108,4 +1116,151 @@ form input[type="submit"]:focus {
 
 .blockquote h4:first-letter {
   margin-left: -12px;
+}
+
+.wrapper2 img {
+  max-width: 420px;
+  float: left;
+  margin-right: 15px;
+}
+.wrapper2 {
+  margin: 50px auto;
+  width: auto;
+  background-color: #d4ced0;
+}
+
+.text-box2 h2 {
+  position: relative;
+  margin-bottom: 0;
+  padding-top: 40px;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.text-box2 ul {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.carousel .responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: flex-start;
+}
+
+.carousel .responsive-container-block.bigContainer {
+  padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+}
+
+.carousel .responsive-container-block.Container {
+  max-width: 1320px;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  position: relative;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 70px;
+  padding-left: 10px;
+}
+
+.carousel .cardImg {
+  width: 100%;
+}
+
+.carousel .container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  display: block;
+}
+
+.carousel .swiper.mySwiper {
+  width: 100%;
+}
+
+.carousel .swiper-slide {
+  width: 100%;
+}
+
+.carousel .swiper-wrapper {
+  width: 100%;
+}
+
+.carousel .swiper-pagination.container-block {
+  top: auto;
+  bottom: 5px;
+  min-height: 20px;
+}
+
+.container3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: center;
+}
+
+h4 {
+  position: relative;
+  align-items: center;
+}
+.grid-container {
+  columns: 5 200px;
+  column-gap: 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.grid-container div {
+  width: 150px;
+  margin: 0 1.5rem 1.5rem 0;
+  display: inline-block;
+  width: 100%;
+  border: solid 2px black;
+  padding: 5px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div:hover img {
+  filter: grayscale(0);
+}
+.grid-container div:hover {
+  border-color: #f7444e;
+}
+.grid-container div img {
+  width: 100%;
+  filter: grayscale(100%);
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+}
+.grid-container div p {
+  margin: 5px 0;
+  padding: 0;
+  text-align: center;
+  font-style: italic;
 }
