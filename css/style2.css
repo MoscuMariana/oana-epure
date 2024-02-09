@@ -101,11 +101,11 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #9251ac;
+  color: #f10606;
   padding: 20px;
   align-self: center;
   margin: 0 20px;
-  background: #f6a4ec;
+  background: #f2ebe3;
   border-radius: 100%;
   width: 40px;
   box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
@@ -121,7 +121,7 @@ h1 {
   content: "";
   width: 2px;
   height: 100%;
-  background: #f6a4ec;
+  background: #f10606;
   position: absolute;
   top: 0%;
   z-index: -1;
@@ -134,7 +134,7 @@ h1 {
   content: "";
   width: 100%;
   height: 2px;
-  background: #f6a4ec;
+  background: #f10606;
   position: absolute;
   left: 0%;
   z-index: -1;
@@ -147,48 +147,48 @@ h1 {
   flex-basis: 100%;
 }
 .timeline__event--type2:after {
-  background: #555ac0;
+  background: #f2ebe3;
 }
 .timeline__event--type2 .timeline__event__date {
-  color: #87bbfe;
-  background: #555ac0;
+  color: #f10606;
+  background: #f2ebe3;
 }
 .timeline__event--type2:nth-child(2n + 1) .timeline__event__icon:before,
 .timeline__event--type2:nth-child(2n + 1) .timeline__event__icon:after {
-  background: #87bbfe;
+  background: #f2ebe3;
 }
 .timeline__event--type2 .timeline__event__icon {
-  background: #87bbfe;
-  color: #555ac0;
+  background: #f2ebe3;
+  color: #f10606;
 }
 .timeline__event--type2 .timeline__event__icon:before,
 .timeline__event--type2 .timeline__event__icon:after {
-  background: #87bbfe;
+  background: #f10606;
 }
 .timeline__event--type2 .timeline__event__title {
-  color: #555ac0;
+  color: #f10606;
 }
 .timeline__event--type3:after {
-  background: #24b47e;
+  background: #f10606;
 }
 .timeline__event--type3 .timeline__event__date {
-  color: #aff1b6;
-  background-color: #24b47e;
+  color: #f10606;
+  background-color: #f2ebe3;
 }
 .timeline__event--type3:nth-child(2n + 1) .timeline__event__icon:before,
 .timeline__event--type3:nth-child(2n + 1) .timeline__event__icon:after {
-  background: #aff1b6;
+  background: #f10606;
 }
 .timeline__event--type3 .timeline__event__icon {
-  background: #aff1b6;
-  color: #24b47e;
+  background: #f2ebe3;
+  color: #f10606;
 }
 .timeline__event--type3 .timeline__event__icon:before,
 .timeline__event--type3 .timeline__event__icon:after {
-  background: #aff1b6;
+  background: #f10606;
 }
 .timeline__event--type3 .timeline__event__title {
-  color: #24b47e;
+  color: #f10606;
 }
 .timeline__event:last-child .timeline__event__icon:before {
   content: none;
